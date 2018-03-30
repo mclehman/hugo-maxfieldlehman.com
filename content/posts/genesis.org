@@ -1,7 +1,7 @@
 ---
 title: "Genesis"
 date: 2018-03-29T14:15:35-07:00
-draft: true
+draft: false
 ---
 
 At a truly inopportune time, I've decided to finally get this site going again. I'm already spending too much time tinkering with personal projects instead of class assignments, but at least with this I'll have something I made to point to.

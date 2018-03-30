@@ -1,7 +1,7 @@
 ---
 title: "Building This Site"
 date: 2018-03-29T22:27:40-07:00
-draft: true
+draft: false
 ---
 
 I shopped around a little before deciding to use [[https://gohugo.io][Hugo]] as the generator for my site. I'd been meaning to give [[https://www.getgutenberg.io/][Gutenberg]] a chance for a while, and [[https://jaspervdj.be/hakyll/][Hakyll]] appeals to the part of my brain that likes taking painfully abstract math courses, but in the end I decided to go for something a bit more established and popular.
