@@ -1,1 +1,9 @@
-hugo ; cd public ; git add . ; git commit -m "Deploy site `date`" ; git push
+#!/bin/bash
+
+hugo
+cd public
+git add .
+git commit -m "Deploy site `date`"
+git push
+# sleep 3
+../cloudflare-purge-cache
