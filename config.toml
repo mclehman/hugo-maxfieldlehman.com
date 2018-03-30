@@ -10,7 +10,7 @@ homepage = "Home"
 
 [[params.mainMenu]]
     link = "/posts"
-    text = "posts"
+    text = "blog"
 
 [[params.mainMenu]]
     link = "/projects/"
