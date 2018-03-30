@@ -1,0 +1,19 @@
+---
+title: "Serving This Site"
+date: 2018-03-30T12:33:45-07:00
+draft: false
+---
+
+Somewhat predictably, the first thing I took care on here after making that "plans going forward" list was not even featured: set up HTTPS.
+
+To be honest, I'm 100% faking it at the moment, but seeing as it's a static site that doesn't handle anything critical, I really just wanted people to be subtly reassured by the little lock in the address bar.
+
+I set up "flexible" HTTPS (including redirects from bare HTTP URLs) and caching with a free-tier [[https://www.cloudflare.com/][Cloudflare]] account. Essentially, an encrypted connection is used when a visitor connects to Cloudflare's servers, but not when Cloudflare connects to Github Pages behind the scenes to refresh the cache. Github Pages does not allow you to configure HTTPS for custom domains, which is what's stopping me from doing the right thing here.
+
+From what I can tell, there have been some changes on Cloudflare's end since most online discussion of the Cloudflare&ndash;Github Pages&ndash;HTTPS combo took place, so here are the salient points for anyone looking to do the same:
+
+- Register your domain with Cloudflare.
+- In the Crypto section on Cloudflare, toggle Always Use HTTPS to on and set SSL to flexible.
+- (Optional) In the Page Rules section, add a rule setting Cache Level to Cache Everything for ~https://<domain>.<tld>/*~ if you'd like to cache your entire site.
+
+I didn't set out to add caching, but it was a nice bonus. As expected, having to clear the cache to see updates immediately on the live site threw a brief wrench into the works. It was particularly frustrating when my local server was correctly sourcing all the relevant stylesheets but the live site wasn't. Jumping over to Cloudflare to purge the cache was making that a bit too slow to debug. A quick skim through the Cloudflare API docs and the ~curl~ manpage later, my deploy script now purges the cache after rebuilding the site, committing any changes, and pushing them up to my Github Pages repo.
