@@ -18,4 +18,4 @@ homepage = "Home"
 
 [[params.mainMenu]]
     link = "/maxfieldlehman-resume.pdf"
-    text = "resume"
+    text = "resumé"
