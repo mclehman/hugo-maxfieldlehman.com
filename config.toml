@@ -1,0 +1,21 @@
+baseURL = "http://maxfieldlehman.com/"
+languageCode = "en-us"
+title = "maxfieldlehman.com"
+theme = "sam"
+homepage = "Home"
+
+[params]
+    homepage = "main"
+    favicon  = "favicon.ico"
+
+[[params.mainMenu]]
+    link = "/posts"
+    text = "posts"
+
+[[params.mainMenu]]
+    link = "/projects"
+    text = "projects"
+
+[[params.mainMenu]]
+    link = "/maxfieldlehman-resume.pdf"
+    text = "resume"
