@@ -4,7 +4,7 @@ date: 2018-03-30T12:33:45-07:00
 draft: false
 ---
 
-Somewhat predictably, the first thing I took care on here after making that "plans going forward" list was not even featured: set up HTTPS.
+Somewhat predictably, the first thing I took care on here after making that "plans going forward" list was not even featured on said list: setting up HTTPS.
 
 To be honest, I'm 100% faking it at the moment, but seeing as it's a static site that doesn't handle anything critical, I really just wanted people to be subtly reassured by the little lock in the address bar.
 
