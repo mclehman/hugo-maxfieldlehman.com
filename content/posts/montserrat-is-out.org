@@ -1,0 +1,11 @@
+---
+title: "Montserrat Is Out"
+date: 2018-03-30T21:20:18-07:00
+draft: false
+---
+
+Raleway is in.
+
+Somehow, I managed to find and use a font /without/ ligatures without noticing for a while. Eventually, the tiny gaps and overlaps got to me and I came to my senses.
+
+When I made sure to take ligatures into account, I found out that Raleway's solid support for them (especially ff, ffi, ffl) is more than enough to outweigh my distaste for the crossing W. I had some reservations about using it as a body font, but after lowering the weight slightly, I'm happy with the end result.
