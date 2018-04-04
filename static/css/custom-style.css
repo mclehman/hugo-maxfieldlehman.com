@@ -2,6 +2,7 @@ html {
     background: #334566;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #334566, #311b35);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to bottom, #1f4075, #4c1955); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #1f4075, #4c1955); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     min-height: 100%;
 }
 
@@ -27,4 +28,19 @@ body {
 a {
     text-decoration: underline;
     border-bottom: 0px solid #ccc;
+}
+.footer {
+    font-family: "Raleway", sans-serif;
+    display: block;
+    position: static;
+    color: #7c69a5;
+    margin-top: 2%;
+    height: 50 width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    bottom: 0;
+}
+
+.footer a {
+    color: #7c69a5;
 }
