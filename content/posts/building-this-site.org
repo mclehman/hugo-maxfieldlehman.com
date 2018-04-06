@@ -2,9 +2,14 @@
 title: "Building This Site"
 date: 2018-03-29T22:27:40-07:00
 draft: false
+tags: ["web", "hugo", "design"]
 ---
 
-I shopped around a little before deciding to use [[https://gohugo.io][Hugo]] as the generator for my site. I'd been meaning to give [[https://www.getgutenberg.io/][Gutenberg]] a chance for a while, and [[https://jaspervdj.be/hakyll/][Hakyll]] appeals to the part of my brain that likes taking painfully abstract math courses, but in the end I decided to go for something a bit more established and popular.
+I shopped around a little before deciding to use [[https://gohugo.io][Hugo]] as the generator for my site.
+
+# more
+
+ I'd been meaning to give [[https://www.getgutenberg.io/][Gutenberg]] a chance for a while, and [[https://jaspervdj.be/hakyll/][Hakyll]] appeals to the part of my brain that likes taking painfully abstract math courses, but in the end I decided to go for something a bit more established and popular.
 
 One of the perks of Hugo is [[https://orgmode.org][Org mode]] support as a drop in replacement for Markdown. I'm in the early stages of recovery from emacs-is-my-OSis, but I still use it for general editing, initial drafts of Latex documents, and as my preferred Git porcelain. As such, Org is much more my speed.
 

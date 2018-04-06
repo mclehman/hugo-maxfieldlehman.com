@@ -2,9 +2,12 @@
 title: "Montserrat Is Out"
 date: 2018-03-30T21:20:18-07:00
 draft: false
+tags: ["typefaces", "design"]
 ---
 
 Raleway is in.
+
+# more
 
 Somehow, I managed to find and use a font /without/ ligatures without noticing for a while. Eventually, the tiny gaps and overlaps got to me and I came to my senses.
 
