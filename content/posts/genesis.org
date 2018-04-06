@@ -2,7 +2,7 @@
 title: "Genesis"
 date: 2018-03-29T14:15:35-07:00
 draft: false
-tags: ["web", "project"]
+tags: ["web", "meta"]
 ---
 
 At a truly inopportune time, I've decided to finally get this site going again.
