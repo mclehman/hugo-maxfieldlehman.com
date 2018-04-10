@@ -10,10 +10,13 @@
           {{ if .Params.showDate }}
             {{ .Date.Format (.Site.Params.dateForm | default "Mon Jan 02, 2006")}} --
           {{ end }}
-          <a href="{{.Permalink}}">{{.Title}}</a><br>
+          {{.Title}}<br>
+          {{ $link := .Permalink }}
           {{ with .Summary }}
             <div class="summary">
-              <p class="summary"> {{ . }} </p>
+              <p class="summary"> {{ . }}
+              <a class="read-more" href="{{ $link }}">Read more</a>
+              </p>
             </div>
           {{ end }}
           {{ with .Params.tags }}
